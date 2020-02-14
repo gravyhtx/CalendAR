@@ -42,7 +42,6 @@ div {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    /* display: block; */
     width: 100%;
     padding: 10px;
     border: 2px solid #c0c7cf;

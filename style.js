@@ -14,4 +14,4 @@ var inputStrg09 = localStorage.getItem(inputStrg09);
 localStorage.setItem(input09, inputStrg09);
 
 // if hours > 9 then
-// document.getElementById("toDo09").disabled = true;
+// document.getElementById("toDo09").disabled = true; 
