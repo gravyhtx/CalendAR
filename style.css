@@ -27,16 +27,6 @@ div {
     margin: 0 auto;
 }
 
-.btn {
-    border: none;
-    background-color: rgba(95, 95, 95, 0.9);
-    border-radius: 25px;
-    padding: 15px;
-    color: hsl(0, 0%, 100%);
-    display: inline-block;
-    text-align: center;
-  }
-
 .text {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -49,6 +39,17 @@ div {
     resize: none;
     overflow: hidden;
   }
+
+.btn {
+    border: none;
+    background-color: rgba(95, 95, 95, 0.9);
+    border-radius: 25px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    text-align: center;
+  }
+
 
   /* #locker {
       text-align: center;
