@@ -41,7 +41,7 @@ div {
   }
 
 .btn {
-    border: none;
+    border: 2px solid rgba(150, 150, 150, 0.9);
     background-color: rgba(95, 95, 95, 0.9);
     border-radius: 25px;
     padding: 15px;
@@ -51,6 +51,7 @@ div {
   }
 
   #clearAll {
+    border: 2px solid rgba(169, 240, 236, 0.9);
     background-color: rgba(117, 189, 236, 0.9);
     border-radius: 25px;
     padding: 15px;

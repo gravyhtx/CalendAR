@@ -69,7 +69,7 @@ $("#toDo16").innerHTML = localStorage.get16;
 document.getElementById('toDo16').innerHTML = localStorage.get16;
 }
 
-if (localStorage.get10 !== undefined) {
+if (localStorage.get17 !== undefined) {
 var toDo17 = $("#toDo17")
 $("#toDo17").innerHTML = localStorage.get17;
 document.getElementById('toDo17').innerHTML = localStorage.get17;
