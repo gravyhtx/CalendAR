@@ -24,7 +24,7 @@ document.getElementById('toDo17').innerHTML = "";
 })
 
 // clear at 8pm
-if (hours >= 19) {
+if (hours >= 20) {
     localStorage.clear();
     document.getElementById('toDo09').innerHTML = "";
     document.getElementById('toDo10').innerHTML = "";
@@ -162,39 +162,39 @@ $("#btn17").on("click", function(event) {
 
 
 // disble 9am-5pm, enable at 8pm
-if (hours >= 9 && hours <= 20){
+if (hours >= 9 && hours < 20){
     document.getElementById("toDo09").disabled = true;
     document.getElementById("time09").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 10 && hours <= 20){
+if (hours >= 10 && hours < 20){
     document.getElementById("toDo10").disabled = true;
     document.getElementById("time10").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 11 && hours <= 20){
+if (hours >= 11 && hours < 20){
     document.getElementById("toDo11").disabled = true;
     document.getElementById("time11").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 12 && hours <= 20){
+if (hours >= 12 && hours < 20){
     document.getElementById("toDo12").disabled = true;
     document.getElementById("time12").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 13 && hours <= 20){
+if (hours >= 13 && hours < 20){
     document.getElementById("toDo13").disabled = true;
     document.getElementById("time13").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 14 && hours <= 20){
+if (hours >= 14 && hours < 20){
     document.getElementById("toDo14").disabled = true;
     document.getElementById("time14").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 15 && hours <= 20){
+if (hours >= 15 && hours < 20){
     document.getElementById("toDo15").disabled = true;
     document.getElementById("time15").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 16 && hours <= 20){
+if (hours >= 16 && hours < 20){
     document.getElementById("toDo16").disabled = true;
     document.getElementById("time16").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
-if (hours >= 17 && hours <= 20){
+if (hours >= 17 && hours < 20){
     document.getElementById("toDo17").disabled = true;
     document.getElementById("time17").style.backgroundColor = "rgba(228, 102, 102, 0.7)";
 }
