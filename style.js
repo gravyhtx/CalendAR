@@ -24,7 +24,7 @@ document.getElementById('toDo17').innerHTML = "";
 })
 
 // clear at 8pm
-if (hours >= 20) {
+if (hours >= 19) {
     localStorage.clear();
     document.getElementById('toDo09').innerHTML = "";
     document.getElementById('toDo10').innerHTML = "";
